@@ -11,7 +11,7 @@
     `kafka-console-consumer --topic my-topic --bootstrap-server localhost:9092 --group my-group --from-beginning`, 
     `kafka-console-producer --topic my-topic --bootstrap-server localhost:9092 --property "parse.key=true" --property "key.separator=:"`
 - describe a consumer group `kafka-consumer-groups --bootstrap-server localhost:9092 --describe --group my-group`
-
+- delte a kafka topic `kafka-topics --bootstrap-server localhost:9092 --delete --topic new-topic`
 
 kafka-console-producer --topic my-topic --bootstrap-server localhost:9092 --property "parse.key=true" --property "key.separator=:"
 kafka-console-producer --topic my-topic --bootstrap-server localhost:9092 --property "parse.key=true" --peoperty "key.separator=:"
