@@ -9,5 +9,11 @@ spring:
       properties:
         spring.json.trusted.packages: "*"
         spring.json.add.type.headers: false
+
+  cloud:
+    function:
+      definition: uppercase
+    function.web.path: /uppercase
+
 server:
   port: 8081
